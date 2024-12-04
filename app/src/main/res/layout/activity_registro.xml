@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoqatar"
+    tools:context=".view.activies.RegistroActivity">
+
+    <TextView
+        android:layout_width="377dp"
+        android:layout_height="544dp"
+        android:background="#88FFFFFF"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <EditText
+        android:id="@+id/txtedad2"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ico_person"
+        android:hint="@string/txtUsuarior"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcorreo"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtedad"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:hint="@string/txtedad"
+        android:drawableStart="@drawable/ico_person"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDni"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtcelular"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ico_celular"
+        android:hint="@string/txtcelular"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtedad2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtDni"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:hint="@string/txtDni"
+        android:drawableStart="@drawable/ico_person"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcelular"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtcorreo"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ico_correo"
+        android:hint="@string/txtcorreo"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtcontraseña"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtcontraseña"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:hint="@string/txtcontraseña"
+        android:inputType="textPassword"
+        android:maxLength="25"
+        android:password="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtapellido"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtapellido"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ico_person"
+        android:hint="@string/txtapellido"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/idtxtTituloRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:pointerIcon="context_menu"
+        android:text="@string/txtTituloRegistro"
+        android:textColorLink="#0D0000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="299dp"
+        android:layout_height="48dp"
+        android:drawableStart="@drawable/ico_person"
+        android:hint="@string/txtnombre"
+        android:maxLength="25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idtxtTituloRegistro"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/txtregistrarusuario"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#951D23C3"
+        android:text="@string/txtregistrarusuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtedad" />
+
+    <Button
+        android:id="@+id/txtregregarlogin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/txtregregarlogin"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorLink="#5E35B1"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtregistrarusuario" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

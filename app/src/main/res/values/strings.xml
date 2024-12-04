@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Hotel Qatar</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="bienvenida">Hola, Viccho!</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- MAIN-->
+    <string name="btnmain">Siguiente</string>
+
+    <!-- LOGIN CLIENTES-->
+    <string name="txtusuario">ingrese su Usuario</string>
+    <string name="txtcontraseñaC">Añadir Contraseña</string>
+    <string name="txtNoCuenta">no tienes ninguna cuenta?</string>
+    <string name="btnRegistrar">REGISTRAR</string>
+    <string name="btnLogin">Ingresar</string>
+
+    <!-- REGISTRO-->
+    <string name="txtTituloRegistro">Registro</string>
+    <string name="txtcorreo">ingrese su correo</string>
+    <string name="txtcontraseña">Añadir Contraseña</string>
+    <string name="txtapellido">Ingrese sus Apellidos</string>
+    <string name="txtUsuarior">Ingrese su Usuario</string>
+    <string name="txtcelular">Ingrese Número Celular</string>
+    <string name="txtDni">Ingresar DNI</string>
+    <string name="txtedad">Ingresar Edad</string>
+    <string name="txtnombre">Ingrese su Nombre</string>
+    <string name="txtregistrarusuario">Registrar Usuario</string>
+    <string name="txtregregarlogin">Regresar al Login</string>
+
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="valtituloPrincipal">Principal</string>
+    <string name="valtituloReservas">Mis Reservas</string>
+    <string name="valtituloServicios">Servicios</string>
+    <string name="valtituloHabitacion">Habitaciones</string>
+    <string name="valtituloContacto">Contactar</string>
+
+
+
+    <string name="valCerrarSesion">Cerrar Sesion</string>
+
+</resources>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/principalFragment">
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="pe.edu.idat.appqatar.view.fragments.PrincipalFragment"
+        android:label="@string/valtituloPrincipal"
+        tools:layout="@layout/fragment_principal" />
+    <fragment
+        android:id="@+id/reservasFragment"
+        android:name="pe.edu.idat.appqatar.view.fragments.ReservasFragment"
+        android:label="@string/valtituloReservas"
+        tools:layout="@layout/fragment_reservas" />
+    <fragment
+        android:id="@+id/serviciosFragment"
+        android:name="pe.edu.idat.appqatar.view.fragments.ServiciosFragment"
+        android:label="@string/valtituloServicios"
+        tools:layout="@layout/fragment_servicios" />
+    <fragment
+        android:id="@+id/contactarFragment"
+        android:name="pe.edu.idat.appqatar.view.fragments.ContactarFragment"
+        android:label="@string/valtituloContacto"
+        tools:layout="@layout/fragment_contactar" />
+    <fragment
+        android:id="@+id/habitacionFragment"
+        android:name="pe.edu.idat.appqatar.view.fragments.HabitacionFragment"
+        android:label="@string/valtituloHabitacion"
+        tools:layout="@layout/fragment_habitacion" />
+</navigation>

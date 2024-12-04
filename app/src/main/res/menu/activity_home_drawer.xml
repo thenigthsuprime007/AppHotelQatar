@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/principalFragment"
+        android:icon="@drawable/icon_principal"
+        android:title="@string/valtituloPrincipal" />
+    <item
+        android:id="@+id/habitacionFragment"
+        android:icon="@drawable/icon_habitacion"
+        android:title="@string/valtituloHabitacion" />
+
+    <item
+        android:id="@+id/reservasFragment"
+        android:icon="@drawable/icon_reservas"
+        android:title="@string/valtituloReservas" />
+    <item
+        android:id="@+id/serviciosFragment"
+        android:icon="@drawable/ic_menu_slideshow"
+        android:title="@string/valtituloServicios" />
+    <item
+        android:id="@+id/contactarFragment"
+        android:icon="@drawable/icon_contactar"
+        android:title="@string/valtituloContacto"/>
+
+</menu>
